@@ -5,7 +5,7 @@ import matplotlib
 matplotlib.use('tkagg')
 
 img=cv2.imread('x.jpg')
-colors=('b','g','r') #bgr formatında okuyoruz
+colors=('b','g','r') #We read in bgr format
 
 for i, color in enumerate(colors):
     hist=cv2.calcHist([img],[i],None,[256],[0,256])
