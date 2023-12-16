@@ -4,27 +4,27 @@ import matplotlib.pyplot as plt
 import matplotlib
 matplotlib.use('tkagg')
 
-# Resmi oku ve renk uzayını değiştir
+# Read image and change color space
 img = cv2.imread("x.jpg", cv2.IMREAD_COLOR)
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
-# Resmi gri tonlamaya çevir
+# Convert image to grayscale
 img_gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
 
-# Orijinal renkli resmi görselleştir
+# Visualize original color image
 plt.subplot(1, 2, 1)
 plt.imshow(img)
 plt.title('Original Image')
 plt.axis('off')
 
-# Gri tonlamalı resmi görselleştir
+# Visualize grayscale image
 plt.subplot(1, 2, 2)
-plt.imshow(img_gray, cmap='gray')  # cmap='gray' gri tonlamalı görüntüyü doğru renkte görüntülemek için kullanılır
+plt.imshow(img_gray, cmap='gray')  # cmap='gray' used to display a grayscale image in correct color
 plt.title('Grayscale Image')
 plt.axis('off')
 
-# Pencereleri göster
+# show windows
 plt.show()
 
-# Bekleme işlemi (Kullanıcı bir tuşa basana kadar bekler)
+# Waiting process (Waits until the user presses a key)
 plt.waitforbuttonpress()
