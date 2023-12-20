@@ -13,3 +13,7 @@
 
 
 ![color-hist](https://github.com/nupeldakandemir/Digital_Image_Processing/assets/120253252/35c26cd5-44b4-476b-98c6-bad9008df1d7)
+
+![salt_and_pepper_image](https://github.com/nupeldakandemir/Digital_Image_Processing/assets/120253252/4142c212-7cf1-45b7-95c7-0be585bc06e3)
+
+![laplace](https://github.com/nupeldakandemir/Digital_Image_Processing/assets/120253252/8a0d10e7-d167-4998-8630-dd97905f1955)
